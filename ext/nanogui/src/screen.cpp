@@ -661,6 +661,7 @@ bool Screen::resizeCallbackEvent(int, int) {
     mLastInteraction = glfwGetTime();
 
     try {
+        std::cout << "mSize: (" << mSize[0] << ", " << mSize[1] << ")" << std::endl;
         return resizeEvent(mSize);
     } catch (const std::exception &e) {
         std::cerr << "Caught exception in event handler: " << e.what()

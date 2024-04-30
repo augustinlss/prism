@@ -1,6 +1,8 @@
 /*
-    nanogui/vscrollpanel.h -- Adds a vertical scrollbar around a widget
+    nanogui/vscroll.h -- Adds a vertical scrollbar around a widget
     that is too big to fit into a certain area
+
+    VScrollContainer has been contributed by Virgiliu Crãciun
 
     NanoGUI was developed by Wenzel Jakob <wenzel.jakob@epfl.ch>.
     The widget drawing code is based on the NanoVG demo application
@@ -27,11 +29,6 @@ class NANOGUI_EXPORT VScrollPanel : public Widget {
 public:
     VScrollPanel(Widget *parent);
 
-    /// Return the current scroll amount as a value between 0 and 1. 0 means scrolled to the top and 1 to the bottom.
-    float scroll() const { return mScroll; }
-    /// Set the scroll amount to a value between 0 and 1. 0 means scrolled to the top and 1 to the bottom.
-    void setScroll(float scroll) { mScroll = scroll; }
-
     virtual void performLayout(NVGcontext *ctx) override;
     virtual Vector2i preferredSize(NVGcontext *ctx) const override;
     virtual bool mouseDragEvent(const Vector2i &p, const Vector2i &rel, int button, int modifiers) override;
@@ -39,12 +36,56 @@ public:
     virtual void draw(NVGcontext *ctx) override;
     virtual void save(Serializer &s) const override;
     virtual bool load(Serializer &s) override;
+
 protected:
     int mChildPreferredHeight;
     float mScroll;
-    bool mUpdateLayout;
+};
+
+//***********************************************************
+
+/**
+ * \class VScrollContainer vscroll.h nanogui/vscroll.h
+ *
+ * \brief A vertical scroll control usind VScrollPanel as the scrolling mechanism.
+ */
+class NANOGUI_EXPORT VScrollContainer : public Widget {
 public:
-    EIGEN_MAKE_ALIGNED_OPERATOR_NEW
+    VScrollContainer(Widget *parent);
+
+        /// set the size of the widget
+    void setSize(const Vector2i &size)
+        { mVScrollPanel->setSize(size);}
+
+    /// Set the width of the widget
+    void setWidth(int width)
+        { mVScrollPanel->setWidth(width);}
+
+    /// Set the height of the widget
+    void setHeight(int height)
+        {mVScrollPanel->setHeight(height);}
+    /**
+     * \brief Set the fixed size of this widget
+     *
+     * If nonzero, components of the fixed size attribute override any values
+     * computed by a layout generator associated with this widget, but parent's fixed size takes priority.
+     * Note that just setting the fixed size alone is not enough to actually change its
+     * size; this is done with a call to \ref setSize or a call to \ref performLayout()
+     * in the parent widget.
+     */
+    void setFixedSize(const Vector2i &size)
+        { mVScrollPanel->setFixedSize(size);}
+    /// Set the fixed width (see \ref setFixedSize())
+    void setFixedWidth(int width)
+        { mVScrollPanel->setFixedWidth(width);}
+    /// Set the fixed height (see \ref setFixedSize())
+    void setFixedHeight(int height)
+        { mVScrollPanel->setFixedHeight(height);}
+
+
+private:
+    ref<Widget>       mScrollHost;
+    ref<VScrollPanel> mVScrollPanel;
 };
 
 NAMESPACE_END(nanogui)
