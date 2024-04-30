@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/src/build",
+  "command": "/usr/bin/clang++   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -Wno-deprecated-declarations -Wno-c++11-extensions -o CMakeFiles/prism.dir/main.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/src/main.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/src/main.cpp",
+  "output": "CMakeFiles/prism.dir/main.cpp.o"
+}
+]

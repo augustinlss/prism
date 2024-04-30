@@ -1,0 +1,290 @@
+[
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -DNVG_BUILD -DNVG_SHARED -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/ext/nanovg/src/nanovg.c.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src/nanovg.c",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src/nanovg.c",
+  "output": "CMakeFiles/nanogui-obj.dir/ext/nanovg/src/nanovg.c.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/darwin.mm.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/darwin.mm",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/darwin.mm",
+  "output": "CMakeFiles/nanogui-obj.dir/src/darwin.mm.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/nanogui_resources.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/nanogui_resources.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/nanogui_resources.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/nanogui_resources.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/glutil.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/glutil.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/glutil.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/glutil.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/common.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/common.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/common.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/common.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/widget.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/widget.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/widget.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/widget.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/theme.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/theme.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/theme.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/theme.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/layout.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/layout.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/layout.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/layout.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/screen.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/screen.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/screen.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/screen.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/label.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/label.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/label.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/label.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/window.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/window.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/window.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/window.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/popup.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/popup.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/popup.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/popup.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/checkbox.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/checkbox.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/checkbox.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/checkbox.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/button.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/button.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/button.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/button.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/popupbutton.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/popupbutton.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/popupbutton.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/popupbutton.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/combobox.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/combobox.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/combobox.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/combobox.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/progressbar.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/progressbar.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/progressbar.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/progressbar.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/slider.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/slider.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/slider.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/slider.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/messagedialog.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/messagedialog.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/messagedialog.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/messagedialog.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/textbox.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/textbox.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/textbox.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/textbox.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/imagepanel.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/imagepanel.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/imagepanel.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/imagepanel.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/imageview.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/imageview.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/imageview.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/imageview.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/vscrollpanel.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/vscrollpanel.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/vscrollpanel.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/vscrollpanel.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/colorwheel.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/colorwheel.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/colorwheel.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/colorwheel.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/colorpicker.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/colorpicker.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/colorpicker.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/colorpicker.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/graph.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/graph.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/graph.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/graph.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/stackedwidget.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/stackedwidget.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/stackedwidget.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/stackedwidget.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/tabheader.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/tabheader.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/tabheader.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/tabheader.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/tabwidget.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/tabwidget.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/tabwidget.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/tabwidget.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/glcanvas.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/glcanvas.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/glcanvas.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/glcanvas.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_BUILD -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -D_GLFW_BUILD_DLL -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -o CMakeFiles/nanogui-obj.dir/src/serializer.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/serializer.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/serializer.cpp",
+  "output": "CMakeFiles/nanogui-obj.dir/src/serializer.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/example1.dir/src/example1.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/example1.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/example1.cpp",
+  "output": "CMakeFiles/example1.dir/src/example1.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/example2.dir/src/example2.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/example2.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/example2.cpp",
+  "output": "CMakeFiles/example2.dir/src/example2.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/example3.dir/src/example3.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/example3.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/example3.cpp",
+  "output": "CMakeFiles/example3.dir/src/example3.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build",
+  "command": "/usr/bin/clang++ -DCORO_SJLJ -DGLAD_GLAPI_EXPORT -DNANOGUI_PYTHON -DNANOGUI_SHARED -DNVG_SHARED -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/eigen -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/nanovg/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/coro -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks  -Wall -Wextra -std=c++14 -stdlib=libc++ -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/example4.dir/src/example4.cpp.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/example4.cpp",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/src/example4.cpp",
+  "output": "CMakeFiles/example4.dir/src/example4.cpp.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/context.c.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/context.c",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/context.c",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/context.c.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/init.c.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/init.c",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/init.c",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/init.c.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/input.c.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/input.c",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/input.c",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/input.c.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/monitor.c.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/monitor.c",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/monitor.c",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/monitor.c.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/vulkan.c.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/vulkan.c",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/vulkan.c",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/vulkan.c.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/window.c.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/window.c",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/window.c",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/window.c.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/cocoa_init.m.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/cocoa_init.m",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/cocoa_init.m",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_init.m.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/cocoa_joystick.m.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/cocoa_joystick.m",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/cocoa_joystick.m",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_joystick.m.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/cocoa_monitor.m.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/cocoa_monitor.m",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/cocoa_monitor.m",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_monitor.m.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/cocoa_window.m.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/cocoa_window.m",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/cocoa_window.m",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_window.m.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/cocoa_time.c.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/cocoa_time.c",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/cocoa_time.c",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/cocoa_time.c.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/posix_tls.c.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/posix_tls.c",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/posix_tls.c",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/posix_tls.c.o"
+},
+{
+  "directory": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src",
+  "command": "/usr/bin/clang -D_GLFW_USE_CONFIG_H -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/include -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src -I/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/build/ext_build/glfw/src  -Wno-deprecated-declarations -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fPIC -Wall -Wno-deprecated-declarations -fno-common -o CMakeFiles/glfw_objects.dir/nsgl_context.m.o -c /Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/nsgl_context.m",
+  "file": "/Users/augustinlassus/Documents/CODE/Projects/prism/ext/nanogui/ext/glfw/src/nsgl_context.m",
+  "output": "ext_build/glfw/src/CMakeFiles/glfw_objects.dir/nsgl_context.m.o"
+}
+]
