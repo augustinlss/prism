@@ -137,6 +137,7 @@ int main(int argc, char **argv) {
     ref<VScrollPanel> scrollpanel = new VScrollPanel(scrollWindow);
     scrollpanel->setFixedHeight(scrollWindow->height());
     scrollpanel->setFixedWidth(scrollWindow->width());
+    scrollpanel->setPosition(Eigen::Vector2i(0, 30));
 
     auto scrollContainer = new Widget(scrollpanel);
     scrollContainer->setFixedSize(Vector2i(scrollWindow->width(), 1000));
