@@ -91,6 +91,8 @@ void windowSizeCallback(GLFWwindow *window, int width, int height) {
     screenWidth = width;
     screenHeight = height;
     nanoguiWindow->setPosition(Eigen::Vector2i(screenWidth - nanoguiWindow->width(), 0));
+
+
 }
 
 
@@ -102,6 +104,7 @@ int main(int argc, char **argv) {
     nanogui::FormHelper *gui = new nanogui::FormHelper(screen);
     nanoguiWindow = gui->addWindow(Eigen::Vector2i(10, 10), "Form helper example");
 
+    
    
     gui->addGroup("Basic types");
     gui->addVariable("bool", bvar)->setTooltip("Test tooltip.");
@@ -137,12 +140,13 @@ int main(int argc, char **argv) {
     ref<VScrollPanel> scrollpanel = new VScrollPanel(scrollWindow);
     scrollpanel->setFixedHeight(scrollWindow->height());
     scrollpanel->setFixedWidth(scrollWindow->width());
+    scrollpanel->setPosition(Eigen::Vector2i(0, 30));
 
     auto scrollContainer = new Widget(scrollpanel);
     scrollContainer->setFixedSize(Vector2i(scrollWindow->width(), 1000));
 
     auto table = new GridLayout(/*dir*/Orientation::Horizontal, /*dir size*/4,
-                              Alignment::Fill, /*margin*/3,/*spacing*/6);
+                              Alignment::Maximum, /*margin*/3,/*spacing*/6);
     scrollpanel->setLayout(table);
 
     int buttonHeight = 30; // Height of each button

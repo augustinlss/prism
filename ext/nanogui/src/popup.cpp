@@ -19,7 +19,7 @@ NAMESPACE_BEGIN(nanogui)
 
 Popup::Popup(Widget *parent, Window *parentWindow)
     : Window(parent, ""), mParentWindow(parentWindow),
-      mAnchorPos(Vector2i::Zero()), mAnchorHeight(30), mSide(Side::Right) {
+      mAnchorPos(Vector2i::Zero()), mAnchorHeight(30), mSide(Side::Left) {
 }
 
 void Popup::performLayout(NVGcontext *ctx) {
@@ -99,5 +99,6 @@ bool Popup::load(Serializer &s) {
     if (!s.get("side", mSide)) return false;
     return true;
 }
+
 
 NAMESPACE_END(nanogui)

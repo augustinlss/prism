@@ -26,7 +26,7 @@ class NANOGUI_EXPORT Object {
 public:
     /// Default constructor
     Object() { }
-
+ 
     /// Copy constructor
     Object(const Object &) : m_refCount(0) {}
 
@@ -87,6 +87,7 @@ public:
     ref(ref &&r) noexcept : m_ptr(r.m_ptr) {
         r.m_ptr = nullptr;
     }
+    
 
     /// Destroy this reference
     ~ref() {
