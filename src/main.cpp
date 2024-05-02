@@ -3,28 +3,21 @@
 #include <nanogui/nanogui.h>
 #include <GLFW/glfw3.h>
 
-enum test_enum {
-    Item1 = 0,
-    Item2,
-    Item3
-};
+#include "editor.h"
 
-bool bvar = true;
-int ivar = 12345678;
-double dvar = 3.1415926;
-float fvar = (float)dvar;
-std::string strval = "A string";
-test_enum enumval = Item2;
-nanogui::Color colval(0.5f, 0.5f, 0.7f, 1.f);
+using namespace nanogui;
 
 GLFWwindow *window = nullptr;
 nanogui::Screen *screen = nullptr;
 nanogui::ref<nanogui::Window> nanoguiWindow;
 
+Window *navigator = nullptr;
+Window *developer = nullptr;    
+
 int screenWidth;
 int screenHeight;
 
-using namespace nanogui;
+
 
 void createGLContexts() {
     if(!glfwInit()) {
@@ -76,6 +69,9 @@ void createGLContexts() {
     screen = new nanogui::Screen();
     screen->initialize(window, true);
 
+    navigator = new Window(screen, "Navigator");
+    developer = new Window(screen, "Develop");      
+
 
     int width, height;
     glfwGetFramebufferSize(window, &width, &height);
@@ -83,89 +79,23 @@ void createGLContexts() {
     glfwSwapInterval(1);
     glfwSwapBuffers(window);
 
+    createLeftSidebar(screen, navigator);
+    createRightSidebar(screen, developer, window, screenWidth);   
+
 }
 
-void windowSizeCallback(GLFWwindow *window, int width, int height) {
-    std::cout << nanoguiWindow.get() << std::endl;
-    std::cout << "New framebuffer size: " << width << " x " << height << std::endl;
-    screenWidth = width;
-    screenHeight = height;
-    nanoguiWindow->setPosition(Eigen::Vector2i(screenWidth - nanoguiWindow->width(), 0));
-}
+
+
 
 
 int main(int argc, char **argv) {
     createGLContexts();
-
+    
     bool enabled = true;
-
-    nanogui::FormHelper *gui = new nanogui::FormHelper(screen);
-    nanoguiWindow = gui->addWindow(Eigen::Vector2i(10, 10), "Form helper example");
-
-   
-    gui->addGroup("Basic types");
-    gui->addVariable("bool", bvar)->setTooltip("Test tooltip.");
-    gui->addVariable("string", strval);
-
-    gui->addGroup("Validating fields");
-    gui->addVariable("int", ivar)->setSpinnable(true);
-    gui->addVariable("float", fvar)->setTooltip("Test.");
-    gui->addVariable("double", dvar)->setSpinnable(true);
     
-
-    gui->addGroup("Complex types");
-    gui->addVariable("Enumeration", enumval, enabled)->setItems({ "Item 1", "Item 2", "Item 3" });
-    gui->addVariable("Color", colval);
-
-    gui->addGroup("Other widgets");
-    gui->addButton("A button", []() { std::cout << "Button pressed." << std::endl; })->setTooltip("Testing a much longer tooltip, that will wrap around to new lines multiple times.");;
-
-
-
-    // Create a scroll panel and add it to the main window
-    auto scrollWindow = new nanogui::Window(screen, "Scroll Panel");
-    scrollWindow->setPosition(Eigen::Vector2i(scrollWindow->width(), 0));
-    // scrollWindow->setLayout(new nanogui::BoxLayout(nanogui::Orientation::Vertical, nanogui::Alignment::Middle, 10, 5));
-    scrollWindow->setSize(Eigen::Vector2i(300, screen->height()));
-
-    /*Host for the desired layout*/
-    // auto dataViewList = new Widget(scrollWindow);
-    // dataViewList->setLayout(new BoxLayout(Orientation::Vertical,Alignment::Fill));
-    
-    // auto dummy_button = new Button(dataViewList, "Dummy Button");
-
-    ref<VScrollPanel> scrollpanel = new VScrollPanel(scrollWindow);
-    scrollpanel->setFixedHeight(scrollWindow->height());
-    scrollpanel->setFixedWidth(scrollWindow->width());
-    scrollpanel->setPosition(Eigen::Vector2i(0, 30));
-
-    auto scrollContainer = new Widget(scrollpanel);
-    scrollContainer->setFixedSize(Vector2i(scrollWindow->width(), 1000));
-
-    auto table = new GridLayout(/*dir*/Orientation::Horizontal, /*dir size*/4,
-                              Alignment::Fill, /*margin*/3,/*spacing*/6);
-    scrollpanel->setLayout(table);
-
-    int buttonHeight = 30; // Height of each button
-    int buttonSpacing = 5; // Spacing between buttons
-    int yPos = buttonSpacing; // Initial y-position
-    /* Children of VScrollPanel, to be arranged and scrolled*/
-    for (int i=0;  i< 16; i++) {
-        auto button = new nanogui::Button(scrollContainer, "Button " + std::to_string(i));
-        button->setFixedSize(Eigen::Vector2i(180, buttonHeight));  // Set the size of each button
-        button->setPosition(Eigen::Vector2i(0, yPos)); // Set the position of the button
-        yPos += buttonHeight + buttonSpacing; // Increment y-position for the next button
-        std::cout << "Button: " << std::to_string(i) << std::endl;
-    }
     screen->setVisible(true);
     screen->performLayout();
-
-
-    nanoguiWindow -> setPosition(Eigen::Vector2i(screenWidth - nanoguiWindow->width(), 0));
-    nanoguiWindow->setSize(Eigen::Vector2i(nanoguiWindow->width(), screen->height()));
-
     
-
     glfwSetCursorPosCallback(window,
             [](GLFWwindow *, double x, double y) {
             screen->cursorPosCallbackEvent(x, y);
@@ -208,7 +138,7 @@ int main(int argc, char **argv) {
         }
     );
 
-    glfwSetWindowSizeCallback(window, windowSizeCallback);
+    
 
     while (!glfwWindowShouldClose(window)) {
         glfwPollEvents();
