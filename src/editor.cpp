@@ -8,8 +8,8 @@ Window *developer_ = nullptr;
 
 void createLeftSidebar(Screen* screen, Window* scrollWindow) {
     // Create a scroll panel and add it to the main windowd
-    scrollWindow->setSize(Eigen::Vector2i(300, screen->height()));
-    scrollWindow->setPosition(Eigen::Vector2i(0, 0));
+    scrollWindow->setSize(Eigen::Vector2i(300, screen->height() - 18));
+    scrollWindow->setPosition(Eigen::Vector2i(0, 18));
 
     /*Host for the desired layout*/
     // auto dataViewList = new Widget(scrollWindow);
@@ -54,8 +54,8 @@ void createRightSidebar(Screen* screen, Window* scrollWindow, GLFWwindow* window
     developer_ = scrollWindow;
 
     // Create a scroll panel and add it to the main window
-    scrollWindow->setSize(Eigen::Vector2i(300, screen->height()));
-    scrollWindow->setPosition(Eigen::Vector2i(screen->width() - scrollWindow->width(), 0));
+    scrollWindow->setSize(Eigen::Vector2i(300, screen->height() - 18));
+    scrollWindow->setPosition(Eigen::Vector2i(screen->width() - scrollWindow->width(), 18));
 
     glfwSetWindowSizeCallback(window, windowSizeCallback);
     /*Host for the desired layout*/
@@ -79,18 +79,9 @@ void createRightSidebar(Screen* screen, Window* scrollWindow, GLFWwindow* window
     int buttonHeight = 30; // Height of each button
     int buttonSpacing = 5; // Spacing between buttons
     int yPos = buttonSpacing; // Initial y-position
-    /* Children of VScrollPanel, to be arranged and scrolled*/
-    for (int i=0;  i< 16; i++) {
-        auto button = new nanogui::Button(scrollContainer, "Button " + std::to_string(i));
-        button->setFixedSize(Eigen::Vector2i(180, buttonHeight));  // Set the size of each button
-        button->setPosition(Eigen::Vector2i(0, yPos)); // Set the position of the button
-        yPos += buttonHeight + buttonSpacing; // Increment y-position for the next button
-        std::cout << "Button: " << std::to_string(i) << std::endl;
-    }
-
     auto slider = new ColorSlider(scrollContainer);
-    slider->setFixedSize(Eigen::Vector2i(180, buttonHeight));
-    slider->setPosition(Eigen::Vector2i(0, yPos));
+    slider->setFixedSize(Eigen::Vector2i(190, buttonHeight));
+    slider->setPosition(Eigen::Vector2i(50, yPos));
 
 }
 

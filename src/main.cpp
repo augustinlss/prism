@@ -13,6 +13,7 @@ nanogui::ref<nanogui::Window> nanoguiWindow;
 
 Window *navigator = nullptr;
 Window *developer = nullptr;    
+Window *menubar = nullptr;
 
 int screenWidth;
 int screenHeight;
@@ -69,8 +70,10 @@ void createGLContexts() {
     screen = new nanogui::Screen();
     screen->initialize(window, true);
 
+    menubar = new Window(screen, "");
+    menubar->setSize(Eigen::Vector2i(screen->width(), 0));
     navigator = new Window(screen, "Navigator");
-    developer = new Window(screen, "Develop");      
+    developer = new Window(screen, "Develop");  
 
 
     int width, height;
@@ -85,9 +88,6 @@ void createGLContexts() {
 }
 
 
-
-
-
 int main(int argc, char **argv) {
     createGLContexts();
     
@@ -95,6 +95,7 @@ int main(int argc, char **argv) {
     
     screen->setVisible(true);
     screen->performLayout();
+
     
     glfwSetCursorPosCallback(window,
             [](GLFWwindow *, double x, double y) {

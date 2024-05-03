@@ -24,7 +24,7 @@ ColorSlider::ColorSlider(Widget *parent)
 }
 
 Vector2i ColorSlider::preferredSize(NVGcontext *) const {
-    return Vector2i(70, 16);
+    return Vector2i(100, 16);
 }
 
 bool ColorSlider::mouseDragEvent(const Vector2i &p, const Vector2i & /* rel */,
@@ -76,15 +76,21 @@ void ColorSlider::draw(NVGcontext* ctx) {
             (mRange.second - mRange.first) * widthX,
             center.y() + 0.5f);
 
-    NVGcolor startColor = nvgRGBA(255, 0, 0, mEnabled ? 32 : 10);  // Start color (red)
-    NVGcolor endColor = nvgRGBA(0, 255, 0, mEnabled ? 128 : 210);  // End color (green)
+    nvgFillColor(ctx, Color(255, 255, 255, 100)); // White color
+    nvgTextAlign(ctx, NVG_ALIGN_CENTER | NVG_ALIGN_MIDDLE);
+    nvgFontFace(ctx, "sans");
+    nvgFontSize(ctx, 14.0f);
+    nvgText(ctx, center.x() - 85, center.y(), "Tint", nullptr);
 
-    NVGpaint bg = nvgBoxGradient(
-        ctx, startX, center.y() - 3 + 1, widthX, 6, 3, 3,
+    NVGcolor startColor = nvgRGBA(255, 0, 0, mEnabled ? 255 : 10);  // Start color (red)
+    NVGcolor endColor = nvgRGBA(0, 255, 0, mEnabled ? 255 : 0);  // End color (green)
+
+    NVGpaint bg = nvgLinearGradient(
+        ctx, 0, 0, widthX + 60, 0,
         startColor, endColor);
 
     nvgBeginPath(ctx);
-    nvgRoundedRect(ctx, startX, center.y() - 3 + 1, widthX, 6, 2);
+    nvgRoundedRect(ctx, startX + 10, center.y(), widthX - 15, 4, 2);
     nvgFillPaint(ctx, bg);
     nvgFill(ctx);
 
@@ -137,7 +143,7 @@ void ColorSlider::draw(NVGcontext* ctx) {
     nvgTextAlign(ctx, NVG_ALIGN_CENTER | NVG_ALIGN_MIDDLE);
     nvgFontFace(ctx, "sans");
     nvgFontSize(ctx, 14.0f);
-    nvgText(ctx, center.x() + 80, center.y(), valueLabel.c_str(), nullptr); // Adjusted position
+    nvgText(ctx, center.x() + 85, center.y(), valueLabel.c_str(), nullptr); // Adjusted position
 }
 
 void ColorSlider::save(Serializer &s) const {

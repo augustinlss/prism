@@ -63,6 +63,7 @@ void Window::performLayout(NVGcontext *ctx) {
     }
 }
 
+
 void Window::draw(NVGcontext *ctx) {
     int ds = mTheme->mWindowDropShadowSize, cr = mTheme->mWindowCornerRadius;
     int hh = mTheme->mWindowHeaderHeight;
