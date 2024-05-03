@@ -61,7 +61,7 @@ void createGLContexts() {
         throw std::runtime_error("Could not initialize GLAD!");
     }
     glGetError(); // pull and ignore unhandled errors like GL_INVALID_ENUM
-    glClearColor(0.2f, 0.25f, 0.3f, 1.0f);
+    glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
     
 

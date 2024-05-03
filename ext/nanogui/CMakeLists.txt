@@ -326,6 +326,7 @@ add_library(nanogui-obj OBJECT
   include/nanogui/tabheader.h src/tabheader.cpp
   include/nanogui/tabwidget.h src/tabwidget.cpp
   include/nanogui/glcanvas.h src/glcanvas.cpp
+  include/nanogui/colorslider.h src/colorslider.cpp
   include/nanogui/formhelper.h
   include/nanogui/toolbutton.h
   include/nanogui/opengl.h

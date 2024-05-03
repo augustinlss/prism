@@ -88,7 +88,7 @@ void createRightSidebar(Screen* screen, Window* scrollWindow, GLFWwindow* window
         std::cout << "Button: " << std::to_string(i) << std::endl;
     }
 
-    auto slider = new Slider(scrollContainer);
+    auto slider = new ColorSlider(scrollContainer);
     slider->setFixedSize(Eigen::Vector2i(180, buttonHeight));
     slider->setPosition(Eigen::Vector2i(0, yPos));
 
