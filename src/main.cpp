@@ -71,7 +71,7 @@ void createGLContexts() {
     screen->initialize(window, true);
 
     menubar = new Window(screen, "");
-    menubar->setSize(Eigen::Vector2i(screen->width(), 0));
+    menubar->setSize(Eigen::Vector2i(screen->width(), 18));
     navigator = new Window(screen, "Navigator");
     developer = new Window(screen, "Develop");  
 
@@ -92,6 +92,32 @@ int main(int argc, char **argv) {
     createGLContexts();
     
     bool enabled = true;
+
+    // Create a popup button
+    PopupButton *popupButton = new PopupButton(menubar, "Popup Button");
+
+    // Set the size of the popup button
+    int buttonWidth = 150; // Adjust the width as needed
+    popupButton->setFixedSize(Vector2i(buttonWidth, menubar->height()));
+
+    // Set the position of the popup button
+    int xPos = 10; // Adjust the x-position as needed
+    popupButton->setPosition(Vector2i(xPos, 0));
+
+    // Create a popup window
+    Popup *popup = popupButton->popup();
+
+    // Add widgets to the popup window (e.g., buttons, labels, etc.)
+    Button *popupContentButton = new Button(popup, "Popup Content");
+    popupContentButton->setFixedSize(Vector2i(120, 30)); // Adjust size as needed
+
+    // Set a callback function for the popup content button
+    popupContentButton->setCallback([]() {
+        // Handle button click for popup content
+        std::cout << "Popup content button clicked" << std::endl;
+    });
+
+
     
     screen->setVisible(true);
     screen->performLayout();
