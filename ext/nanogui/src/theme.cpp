@@ -25,7 +25,7 @@ Theme::Theme(NVGcontext *ctx) {
     mIconScale                        = 0.77f;
 
     mWindowCornerRadius               = 2;
-    mWindowHeaderHeight               = 30;
+    mWindowHeaderHeight               = 25;
     mWindowDropShadowSize             = 10;
     mButtonCornerRadius               = 2;
     mTabBorderWidth                   = 0.75f;

@@ -4,6 +4,7 @@ cmake_minimum_required(VERSION 3.13)
 set(PRISM_VIEWER_SOURCE
     # Application
     main.cpp
+    editor.cpp
 )
 
 #-------------------------------------------------------------------------------
@@ -40,6 +41,7 @@ link_directories(
 # Add executable
 #-------------------------------------------------------------------------------
 add_executable(prism ${PRISM_VIEWER_SOURCE})
+
 
 if(POLICY CMP0079 )
   cmake_policy(SET CMP0079 NEW)
